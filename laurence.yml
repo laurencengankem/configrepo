@@ -1,0 +1,10 @@
+---
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/kulvida
+    username: root
+    password: root
+  
+  config:
+    import: optional:configserver:http://localhost:8888
