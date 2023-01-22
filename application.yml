@@ -4,3 +4,7 @@ server:
 
 app:
   test: test
+
+spring:
+  datasource:
+    username: root
