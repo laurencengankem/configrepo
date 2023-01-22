@@ -3,8 +3,9 @@ server:
 
 
 app:
-  test: test
+  test: testme
 
 spring:
   datasource:
     username: root
+
