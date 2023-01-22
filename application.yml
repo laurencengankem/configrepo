@@ -5,7 +5,5 @@ server:
 app:
   test: testme
 
-spring:
-  datasource:
-    username: root
+
 
