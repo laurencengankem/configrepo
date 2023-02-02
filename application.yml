@@ -40,3 +40,8 @@ paypal:
 
 
 
+logging:
+  path: /logs/
+  file: /logs/kulvida.log
+  level:
+    root: INFO
