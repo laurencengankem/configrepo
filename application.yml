@@ -49,7 +49,7 @@ paypal:
 
 
 logging:
-  path: /root/logs/
-  file: /root/logs/kulvida.log
+  path: /root/
+  file: /root/kulvida.log
   level:
     root: INFO
