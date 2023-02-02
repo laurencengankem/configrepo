@@ -3,6 +3,9 @@
 jwt:
   secret: mysecret
 
+server:
+  port: 9000
+
 
   # mail sender config
 spring:
