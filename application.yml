@@ -17,6 +17,11 @@ spring:
           auth: true
           starttls:
             enable: true
+            
+  datasource:
+    url: jdbc:mysql://10.0.2.6:3306/kulvida
+    username: backend
+    password: root
 
 
 
