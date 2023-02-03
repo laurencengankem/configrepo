@@ -8,8 +8,8 @@ spring:
 
 logging:
   file:
-    path: C:/Users/Quentin/Desktop/testGit/logs/
-    name: kulvida.log
+    path: C:/Users/Quentin/Desktop/testGit/logs
+    name: C:/Users/Quentin/Desktop/testGit/logs/kulvida.log
   level:
     root: INFO
 
