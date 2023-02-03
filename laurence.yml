@@ -7,9 +7,14 @@ spring:
     password: root
 
 logging:
-  path: C:/Users/Quentin/Desktop/testGit/logs/
-  file: C:/Users/Quentin/Desktop/testGit/logs/kulvida.log
+  file:
+    path: C:/Users/Quentin/Desktop/testGit/logs/
+    name: kulvida.log
   level:
     root: INFO
+
+  logback:
+    rollingpolicy:
+      file-name-pattern: C:/Users/Quentin/Desktop/testGit/logs/kulvida.%d{yyyy-MM-dd}.%i.log
   
   
