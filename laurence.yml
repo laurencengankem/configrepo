@@ -5,5 +5,11 @@ spring:
     url: jdbc:mysql://localhost:3306/kulvida
     username: root
     password: root
+
+logging:
+  path: C:/Users/Quentin/Desktop/testGit/logs
+  file: C:/Users/Quentin/Desktop/testGit/logs/kulvida.log
+  level:
+    root: INFO
   
   
