@@ -17,4 +17,9 @@ logging:
     rollingpolicy:
       file-name-pattern: C:/Users/Utente/logs/kulvida.%d{yyyy-MM-dd}.%i.log
   
-  
+ #paypal config
+paypal:
+  mode: sandbox
+  client:
+    id: AeY9dbDKeEsQ4gqpesefcpBCjdn1SowMR_dE_HNsGfggodziWQqi6fJkwEyyjqX-zgvjKh1U7EnNVJ0S
+    secret: EAujKw8myuk5AVm2urXeEU0qvePLVDoEs_KEHynBT5F0dUOpWPG93NYS7PokIw7eduusC2_M1IaMaIpw
